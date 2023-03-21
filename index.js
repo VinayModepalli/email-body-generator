@@ -20,7 +20,7 @@ function generateEmailBody(ID){
     <strong>Resume:</strong> https://tinyurl.com/mvkresume <br/>
     <strong>LeetCode:</strong>  https://leetcode.com/vinaymodepalli/ <br/>
     <strong>GitHub:</strong>  https://github.com/VinayModepalli/ <br/>
-    <strong>Phone:</strong> +91 85001 49027 <br/><br/>
+    <br/>
     
     I am excited about the opportunity to apply my skills and experience, and I believe that I would be able to make meaningful contributions to ${company}. Thank you for your time and consideration. I look forward to hearing back from you soon.
 
