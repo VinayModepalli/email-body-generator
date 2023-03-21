@@ -1,0 +1,1 @@
+A simple tool to generate Email bodies with common text. The idea is to minimize the amount of time job seekers spend to communicate with recruiters and HRs. If the candidate has a CSV file with list of emails, he can upload it here and generate the email body, making the email a little personal (unlike sending a generic copy of email to everyone).

@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+        <!-- CSS -->
+        <style type="text/css">
+            table th, table td{
+                padding: 5px;
+            }
+        </style>
+</head>
+<body>
+
+
+<div>
+
+    <div class="center-it">
+         <input type="file" name="file" id="file" accept=".csv" > <br><br>
+         <input type="button" id="btnsubmit" value="Submit" onclick="readCSVFile();" >
+    </div>
+    <!-- List CSV file data -->
+    <section>
+        <div id="email-list" class="center-it">
+            <table id="tblcsvdata" border="1" style="border-collapse: collapse;">
+                <thead>
+                     <tr>
+                         <th>S.no</th>
+                         <th>Status</th>
+                         <th>First Name</th>
+                         <th>Email</th>
+                         <th>Company</th>
+                         <th>Jobs</th>
+                         <th>Generate</th>
+                         <!--<th>Send</th>-->
+                     </tr>
+                </thead>
+                <tbody>
+       
+                </tbody>
+       
+           </table>
+        </div>
+        <div id="email-body" class="center-it" onclick="copyDivToClipboard()">
+
+        </div>
+    </section>
+    <div id="send-button" class="center-it">
+        <button><a id="mail-link" href="javascript:void(0)" >Send</a></button>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
